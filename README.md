@@ -99,12 +99,33 @@ streamlit run app.py
 
 ---
 
-## 🛠️ Planned Features
 
-* 🧮 Variable scoping and nested blocks
-* 📦 Importing files/modules
-* 🎨 Syntax highlighting (via `streamlit-ace` or similar)
-* 🧪 Unit test suite for language components
+## 🌱 Future Improvements
+
+This is an early prototype of the Pingl language. Here are a few realistic improvements that would make it more stable and usable:
+
+### 🔧 Core Fixes
+
+* [ ] **Fix interpreter bugs** — Clean up inconsistent behavior in loops, conditionals, and class methods
+* [ ] **Better error messages** — Show user-friendly messages instead of crashing on invalid syntax
+* [ ] **Support basic expressions** — Enable arithmetic inside conditionals and assignments (e.g., `set x to 5 + 3`)
+
+### 🛠 Language Features
+
+* [ ] **Allow nested blocks** — Right now, nested loops/conditionals are flaky or unsupported
+* [ ] **Add support for simple booleans** — `true`, `false`, and boolean comparisons
+* [ ] **Improve method calling** — Make object method definitions and calls more reliable
+
+### 🖥 Frontend & Usability
+
+* [ ] **Live output panel** — Display results immediately below the editor instead of just on click
+* [ ] **Editor improvements** — Allow better formatting or syntax help in the code input box
+
+### 🧪 Development Support
+
+* [ ] **Basic test cases** — Write a few tests for the lexer, parser, and interpreter to avoid regressions
+* [ ] **Logging/debug mode** — Output the AST or execution steps to help debug complex behavior
+
 
 ---
 
